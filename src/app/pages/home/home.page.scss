@@ -1,0 +1,529 @@
+
+
+ion-content {
+  --background: #ffffff;
+}
+
+ion-header {
+  --background: #ffffff;
+}
+
+ion-footer {
+  --background: #ffffff;
+}
+
+.title-home{
+  font-family: SF Pro Display;
+  font-size: 34px;
+  color: rgba(23, 23, 27, 1);
+  padding-top: 15px;
+  padding-left: 30px;
+}
+
+.description-home{
+  font-family: SF Pro Display;
+  font-size: 14px;
+  color: rgba(116, 116, 118, 1);
+  padding-top: 12px;
+  padding-left: 30px;
+  padding-right: 20px;
+}
+
+.ion-search{
+  max-width: 334px;
+  margin-left: 30px;
+  margin-right: 40px;
+  margin-top: 25px;
+  border-radius: 10px;
+}
+
+.search-bar-home{
+  background-color: rgba(242, 242, 242, 1);
+}
+
+.toolbar{
+  background-color: #F2F2F2;
+}
+
+.search-bar{
+  font-family: SF Pro Display;
+  font-size: 15px;
+  color: rgba(116, 116, 118, 1);
+  background-color: #F2F2F2;
+}
+
+.list-pokes{
+  background-color: white;
+}
+
+.card-list-pokes{
+  max-width: 334px;
+  max-height: 115px;
+  margin-left: 30px;
+  margin-right: 40px;
+  margin-top: 25px;
+  border-radius: 10px;
+}
+
+.head-card{
+  position: relative;
+  overflow: visible;
+  padding-bottom: 0px;
+}
+
+.number-poke{
+  font-family: SF Pro Display;
+  font-size: 12px;
+  color: rgba(23, 23, 27, 0.6);
+}
+
+.poke-name{
+  font-family: SF Pro Display;
+  font-size: 26px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.poke-name::first-letter{
+  text-transform: capitalize;
+}
+
+.card-content{
+  position: relative;
+}
+
+.type-poke{
+  font-family: SF Pro Display;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 1);
+  margin-left: 8px;
+}
+
+.type-poke::first-letter{
+  text-transform: capitalize;
+}
+
+.img-poke{
+  position: absolute;
+  right: 0;
+  top: -25px;
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+}
+
+.img-type{
+  width: 12px;
+  height: 14px;
+}
+
+.bug{
+  background-color: #8BD674;
+}
+
+.dark{
+  background-color: #58575F;
+}
+
+.dragon{
+  background-color: #0F6AC0;
+}
+
+.electric{
+  background-color: #EED535;
+}
+
+.fairy{
+  background-color: #ED6EC7;
+}
+
+.fighting{
+  background-color: #D04164;
+}
+
+.fire{
+  background-color: #FFA756;
+}
+
+.flying{
+  background-color: #748FC9;
+}
+
+.ghost{
+  background-color: #556AAE;
+}
+
+.grass{
+  background-color: #8BBE8A;
+}
+
+.ground{
+  background-color: #DD7748;
+}
+
+.ice{
+  background-color: #61CEC0;
+}
+
+.normal{
+  background-color: #9DA0AA;
+}
+
+.poison{
+  background-color: #A552CC;
+}
+
+.psychic{
+  background-color: #EA5D60;
+}
+
+.rock{
+  background-color: #BAAB82;
+}
+
+.steel{
+  background-color: #417D9A;
+}
+
+.water{
+  background-color: #58ABF6;
+}
+
+.btn-type{
+  width: 40px;
+  height: 25px;
+}
+
+#bug:hover{
+  border-radius: 50%;
+  background-color: #8BD674;
+}
+
+#dark:hover{
+  border-radius: 50%;
+  background-color: #58575F;
+}
+
+#dragon:hover{
+  border-radius: 50%;
+  background-color: #0F6AC0;
+}
+
+#electric:hover{
+  border-radius: 50%;
+  background-color: #EED535;
+}
+
+#fairy:hover{
+  border-radius: 50%;
+  background-color: #ED6EC7;
+}
+
+#fighting:hover{
+  border-radius: 50%;
+  background-color: #D04164;
+}
+
+#fire:hover{
+  border-radius: 50%;
+  background-color: #FFA756;
+}
+
+#flying:hover{
+  border-radius: 50%;
+  background-color: #748FC9;
+}
+
+#ghost:hover{
+  border-radius: 50%;
+  background-color: #556AAE;
+}
+
+#grass:hover{
+  border-radius: 50%;
+  background-color: #8BBE8A;
+}
+
+#ground:hover{
+  border-radius: 50%;
+  background-color: #DD7748;
+}
+
+#ice:hover{
+  border-radius: 50%;
+  background-color: #61CEC0;
+}
+
+#normal:hover{
+  border-radius: 50%;
+  background-color: #9DA0AA;
+}
+
+#poison:hover{
+  border-radius: 50%;
+  background-color: #A552CC;
+}
+
+#psychic:hover{
+  border-radius: 50%;
+  background-color: #EA5D60;
+}
+
+#rock:hover{
+  border-radius: 50%;
+  background-color: #BAAB82;
+}
+
+#steel:hover{
+  border-radius: 50%;
+  background-color: #417D9A;
+}
+
+#water:hover{
+  border-radius: 50%;
+  background-color: #58ABF6;
+}
+
+#short:hover{
+  border-radius: 50%;
+  background-color: #FFC5E6;
+}
+
+#medium:hover{
+  border-radius: 50%;
+  background-color: #AEBFD7;
+}
+
+#tall:hover{
+  border-radius: 50%;
+  background-color: #AAACB8;
+}
+
+#light:hover{
+  border-radius: 50%;
+  background-color: #99CD7C;
+}
+
+#normal:hover{
+  border-radius: 50%;
+  background-color: #57B2DC;
+}
+
+#heavy:hover{
+  border-radius: 50%;
+  background-color: #5A92A5;
+}
+
+.contenedor-tipos{
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  gap: 22px;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 40px;
+  align-items: center;
+}
+
+.tipo-filtrado{
+  height: 20px;
+  width: 20px;
+  margin-right: 0px;
+}
+
+.filterTitle{
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  color: rgba(23, 23, 27, 1);
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.filterSubtitle{
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #747476;
+  margin-top: 6px;
+  margin-left: 35px;
+  width: 300px;
+}
+
+.title-filter{
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #17171B;
+  margin-left: 35px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+#radio-none{
+  display: none;
+}
+
+.content-filters{
+  max-height: 100px;
+}
+
+ion-range{
+  --bar-background: #F2F2F2;
+  --bar-background-active: #EA5D60;
+}
+
+ion-range::part(knob){
+  --knob-background: #FFFFFF;
+  border: 4px solid #EA5D60;
+}
+
+.range{
+  padding-top: 0px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.reset-apply-btn{
+  text-transform: capitalize;
+  &::first-letter{
+    text-transform: none;
+  }
+}
+
+.reset-apply-btn{
+  --background: #F2F2F2;
+  color: #747476;
+}
+
+.reset-apply-btn:focus{
+  --background: #EA5D60;
+  color: #FFFFFF;
+}
+
+.reset-apply-btn{
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  gap: 10px;
+  height: 30px;
+  width: 130px;
+  border-radius: 12px;
+  margin-top: 5px;
+  
+}
+
+.contenedor-btn{
+  display: flex;
+  margin-left: 50px;
+  margin-right: 50px;
+  height: 30px;
+}
+
+.sortTitle{
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  color: rgba(23, 23, 27, 1);
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.sortSubtitle{
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #747476;
+  margin-top: 6px;
+  margin-left: 35px;
+  width: 300px;
+}
+
+.content-sorts{
+  max-height: 100px;
+}
+
+.sort-btn{
+  text-transform: capitalize;
+  &::first-letter{
+    text-transform: none;
+  }
+}
+
+.sort-btn{
+  --background: #F2F2F2;
+  color: #747476;
+}
+
+.sort-btn:focus{
+  --background: #EA5D60;
+  color: #FFFFFF;
+}
+
+.sort-btn{
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #747476;
+  width: 300px;
+  height: 45px;
+  border-radius: 12px;
+  margin-left: 30px;
+  margin-top: 25px;
+}
+
+.generationTitle{
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  color: rgba(23, 23, 27, 1);
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.generationSubtitle{
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #747476;
+  margin-top: 6px;
+  margin-left: 35px;
+  width: 300px;
+}
+
+.generation-card{
+  width: 160px;
+  height: 100px;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+}
+
+.generation-card:focus{
+  --background: #EA5D60;
+  color: #FFFFFF;
+}
+
+.generations-content{
+  display: flex;
+}
+
+.div-g{
+  display: inline-flex;
+}
+
+.gen-poke{
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #747476;
+  margin-left: 40px;
+}
